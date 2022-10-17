@@ -1,0 +1,320 @@
+*
+{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+   
+}
+
+.Menu
+{
+    margin:0px;
+    padding:0px;
+}
+nav{
+    position: fixed;
+    width:100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-between;
+    padding: 1vw 8vw;
+    align-items: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+}
+nav img{
+    height: 70px;
+    margin-top: -5px;
+    margin-left:60px;
+    cursor: pointer;
+}
+nav .Menu ul{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav .Menu ul li{
+    list-style-type: none;
+    margin-left: 30px;
+    color: black;
+    text-decoration:none;
+}
+nav .Menu ul li a{
+    color: black;
+    text-decoration:none;
+    font-size: 18px;
+    font-weight: 600;
+    transition:0.3 ease;
+}
+nav .Menu ul li a:hover
+{
+    background-color: rgba(229, 176, 176, 0.58);
+    color: brown;
+}
+.a1
+{
+    background-color:rgba(248, 240, 240, 0.943);
+    color:rgba(255, 255, 255, 0);
+     border-radius: 5px;
+}
+.b1
+{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+#Home
+{
+    background-image: linear-gradient(rgba(9,5,54,0.3),rgba(5,4,46,0.7)),url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7c0OCIWbSNwyhpPe9jzzGE2erN6vq8c6CsA&usqp=CAU")  ;
+    width: 100%;
+    height:100vh;
+    background-size: cover;
+   background-position: center;
+   display:flex;
+   flex-direction:column;
+   justify-content: center;
+   align-items: center;
+   padding-top: 40px;
+}
+#Home h2
+{
+    color: white;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+#Home p
+{
+    width:50%;
+    color: white;
+    font-size: 13px;
+    line-height: 25px;
+}
+#Home a
+{
+    text-decoration: none;
+    font-size: 0.9rem;
+    background-color: white;
+    font-weight: 600;
+    padding: 13px 35px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+#Home .btn
+{
+    margin-top: 30px;
+}
+#Home a.Red
+{
+    color: rgba(197, 0, 0, 0.58);
+    background: rgba(229, 176, 176, 0.58);
+    transition:0.3 ease;
+}
+#Home a.Red:hover
+{
+    color:  rgba(229, 176, 176, 0.58);
+    background: rgba(197, 0, 0, 0.58);
+}
+#Home a.Pink
+{
+    color:  rgba(197, 0, 0, 0.58);
+    background: rgba(229, 176, 176, 0.58);
+    transition:0.3 ease;
+}
+#Home a.Pink:hover
+{
+    color:  rgba(229, 176, 176, 0.58);
+    background:rgba(197, 0, 0, 0.58);
+}
+#features
+{
+    padding:5vw 8vw 0vw 8vw;
+    text-align: center;
+     
+}
+#features .fea-base
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    grid-gap:1rem;
+    margin-top: 50px;
+}
+#features .fea-box {
+    background-color:rgba(240, 215, 215, 0.753);
+    text-align: start;
+}
+#features .fea-box i{
+    font-size: 30px;
+    color: black;
+    margin-left: 30px;;
+}
+#features .fea-box  h3{
+font-size: 1.2 rem;
+font-weight: 600;
+color:rgba(197, 0, 0, 0.58);
+padding: 13px 0 7px 0;
+}
+#features .fea-box  p{
+    font-size: 1 rem;
+    font-weight: 400;
+    color:rgba(88, 2, 2, 0.58);
+  
+    }
+    #course{
+        padding: 8vw 8vw 0 8vw;
+        text-align: center;
+    }
+    #course .course-box
+    {
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+        grid-gap:1rem;
+        margin-top: 50px;
+    }
+    #course .courses{
+        text-align: start;
+        background:rgba(240, 215, 215, 0.753);
+        height: 100%;
+        position: relative;
+    }
+    #course .courses img
+    {
+        width:100%;
+        height: 60%;
+        background-size: cover;
+        background-position: center;
+    }
+    #course .courses .details
+    {
+        padding: 15px 15px 0 15px;
+    }
+    #course .courses .details i{
+        color: #FDC938;
+        font-size: .9rem;
+    }
+    #course .courses .cost
+    {
+     background-color: rgba(197, 0, 0, 0.58);
+     color: white;
+     line-height: 70px;
+    width:70px;
+    height:70px;
+    text-align: center;
+    border-radius: 50%;
+    position:absolute;
+    right:15px;
+    bottom: 130px;
+    }
+   #registration
+    {
+        padding: 6vw 8vw 6vw 8vw;
+        background-image: linear-gradient(rgba(99,112,168,0.5),rgba(81,91,233,0.5)),url("signup.jpg");
+        width: 100%;
+        height:100%;
+     background-size: cover;
+     background-position: center;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+    }
+
+    #registration .reminder
+    {
+        color: white;
+    }
+   #registration .reminder .time
+   {
+      display: flex;
+      margin-top: 40px;
+  
+   }
+   #registration .reminder .time .date
+    {
+        text-align: center;
+        padding: 33px;
+        background: rgb(225,255,255,0.25);
+        backdrop-filter:blur(4px);
+        box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+        border-radius: 5px;
+        margin:0 5px 10px 5px;
+        border: 1px solid rgba(255,255,255,0.18);
+        font-size: 1.1 rem;
+        font-weight: 600;
+    }
+    #registration .form
+    {
+        background: white;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+    }
+    #registration .form input{
+        margin: 15px 0;
+        padding:15px 10px;
+        border: 1px solid rgba(197, 0, 0, 0.58);
+    }
+    #registration .form input::placeholder
+    {
+        color: #413c3c;
+        font-weight: 500;
+        font-size:0.9rem ;
+    }
+    #registration .form .btn{
+        margin-top: 20px;
+    }
+    #registration .form a.Pink
+    {
+        color:  rgba(197, 0, 0, 0.58);
+        background: rgba(229, 176, 176, 0.58);
+        transition:0.3 ease;
+        text-decoration: none;
+    font-size: 0.9rem;
+    background-color:rgba(197, 0, 0, 0.58);
+    font-weight: 600;
+    padding: 13px 35px;
+    margin-top: 40px;
+    border-radius: 5px;
+    }
+    #registration .form a.Pink:hover
+    {
+        color:black;
+        background:red;
+    }
+#xperts{
+    padding:8vw 8vw 0 8vw;
+    text-align: center;
+}
+#experts .expert-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap:1rem;
+    margin-top: 50px;
+}
+#experts .expert-box .profile
+{
+    background: #fafaf1; 
+    padding: 30px 10px;
+   
+
+}
+#experts .expert-box .profile img
+{
+    border-radius: 50%;
+}
+.pro-links
+{
+    margin-top: 10px;
+}
+.pro-links i{
+    padding:10px 13px;
+    border:1px solid rgb(21,21,100);
+    cursor: pointer;
+    transition: 0.3 ease;
+}
+.pro-links i:hover{
+   background:rgb(21,21,100) ;
+   color: white;
+    border:1px solid rgb(21,21,100);
+    cursor: pointer;
+}
